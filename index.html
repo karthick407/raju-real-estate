@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar Section -->
+    <section class="background" id="home">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="img/logo.png" alt="">
+                <span>HOMY</span>
+            </div>
+            <ul class="nav_items" id="nav_links">
+                <div class="item">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#listing">LISTING</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <li class="btn"><a href="#">GET DETAILS</a></li>
+                </div>
+            </ul>
+            <div class="nav_menu" id="menu_btn">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </section>
+
+    <!-- Hero / Home Section -->
+    <section class="home_section">
+        <div class="home_content">
+            <h1>Find A <span class="highlight">Perfect</span> Home To Live With Your Family</h1>
+            <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Accusamus Fugit Minima 
+            Molestiae Ipsam Eligendi Suscipit Blanditiis Sunt Expedita Odit.</p>
+            <a href="#" class="btn">View More</a>
+        </div>
+        <div class="home_image">
+            <img src="img/house (2).jpg" alt="House Image">
+        </div>
+    </section>
+    <section class="row">
+    <div class="row_box">
+        <input type="text" name="keyword" placeholder="Search keyword">
+        
+        <select name="type" id="property-type">
+            <option value="">Property Type</option>
+            <option value="villa">Villa</option>
+            <option value="apartment">Apartment</option>
+            <option value="commercial">Commercial</option>
+        </select>
+        
+        <select name="location" id="location">
+            <option value="">Select Location</option>
+            <option value="newyork">Kolar</option>
+            <option value="losangeles">KR Puram</option>
+            <option value="chicago">Hosakote</option>
+        </select>
+        
+        <button class="btn btn2">Search</button>
+    </div>
+</section>
+
+
+
+<!--proprerty-->
+<section class="sec" id="services">
+    <div class="head">
+        <h1 class="heading1">Property Types</h1>
+        <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptates fuga vitae ullam nemo rerum, natus maxime explicabo.</p>
+    </div> 
+
+    <div class="boxes">
+        <div class="box">
+            <div class="main_box">
+                <i class="ri-building-2-line"></i>
+                <h1>Apartments</h1>
+                <h2>321 Properties</h2>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="main_box">
+                <i class="ri-building-2-line"></i>
+                <h1>Garage</h1>
+                <h2>321 Properties</h2>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="main_box">
+                <i class="ri-bank-line"></i>
+                <h1>Bank</h1>
+                <h2>321 Properties</h2>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="main_box">
+                <i class="ri-school-line"></i>
+                <h1>School</h1>
+                <h2>321 Properties</h2>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="main_box">
+                <i class="ri-home-office-line"></i>
+                <h1>Office</h1>
+                <h2>321 Properties</h2>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="main_box">
+                <i class="ri-building-4-line"></i>
+                <h1>Buildings</h1>
+                <h2>321 Properties</h2>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="main_box">
+                <i class="ri-building-line"></i>
+                <h1>Villa</h1>
+                <h2>321 Properties</h2>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="main_box">
+                <i class="ri-building-3-line"></i>
+                <h1>Shop</h1>
+                <h2>321 Properties</h2>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- About Section -->
+<section class="box_1">
+  <div class="left_box">
+    <img src="img/pic2.jpg" alt="About Image">
+  </div>
+  <div class="right_box">                           
+    <h1 class="heading1">#1 place to find perfect property</h1>
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quisquam exercitationem et. Molestias totam sequi aliquam eius, ut nihil quod aliquid nam at, beatae.</p>
+    <ul>
+      <li><i class="ri-check-line"></i> Lorem ipsum dolor sit amet</li>
+      <li><i class="ri-check-line"></i> consectetur adipisicing elit</li>
+      <li><i class="ri-check-line"></i> Molestias totam sequi</li>
+    </ul>
+    <button class="btn btn2">Learn More</button>
+  </div>
+</section>
+
+<!-- Property List Section -->
+<section class="sec" id="listing">
+  <div class="head_1">
+    <div class="left_head">
+      <h1 class="heading1">Property Listing</h1>
+      <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum iste impedit eius non! Doloremque.</p>
+    </div>
+    <div class="right_head">
+      <ul>
+        <li class="btn">Featured</li>
+        <li class="btn btn2">For Sale</li>
+        <li class="btn btn2">For Rent</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ✅ Add this container around all cards -->
+  <div class="list_boxes">
+
+    <!-- Property Cards (6) -->
+    <div class="list_box">
+      <img src="img/pic2.jpg" alt="Property 1" />
+      <div class="list_text">
+        <h2>25,000</h2>
+        <h1>Modern Lake View House</h1>
+        <p class="para"><i class="ri-map-pin-2-fill"></i> 45 Lake Avenue, NY</p>
+      </div>
+    </div>
+
+    <div class="list_box">
+      <img src="img/pic2.jpg" alt="Property 2" />
+      <div class="list_text">
+        <h2>19,500</h2>
+        <h1>Cozy Cottage Home</h1>
+        <p class="para"><i class="ri-map-pin-2-fill"></i> 123 Maple Street, LA</p>
+      </div>
+    </div>
+
+    <div class="list_box">
+      <img src="img/pic2.jpg" alt="Property 3" />
+      <div class="list_text">
+        <h2>12,000</h2>
+        <h1>Urban Golden House</h1>
+        <p class="para"><i class="ri-map-pin-2-fill"></i> 223 Street, Chicago</p>
+      </div>
+    </div>
+
+    <div class="list_box">
+      <img src="img/pic2.jpg" alt="Property 4" />
+      <div class="list_text">
+        <h2>32,000</h2>
+        <h1>Luxury Family Villa</h1>
+        <p class="para"><i class="ri-map-pin-2-fill"></i> 98 Palm Drive, Miami</p>
+      </div>
+    </div>
+
+    <div class="list_box">
+      <img src="img/pic2.jpg" alt="Property 5" />
+      <div class="list_text">
+        <h2>15,700</h2>
+        <h1>Modern Townhouse</h1>
+        <p class="para"><i class="ri-map-pin-2-fill"></i> 76 Broadway, Boston</p>
+      </div>
+    </div>
+
+    <div class="list_box">
+      <img src="img/pic2.jpg" alt="Property 6" />
+      <div class="list_text">
+        <h2>22,800</h2>
+        <h1>Seaside Bungalow</h1>
+        <p class="para"><i class="ri-map-pin-2-fill"></i> Oceanview Road, SF</p>
+      </div>
+    </div>
+
+  </div> <!-- end .list_boxes -->
+
+
+  <button class="btn btn2">more property </button>
+</section>
+
+<!-- ✅ Contact Section -->
+<section class="box row_1">
+  <div class="box_1 contact_box">
+    
+    <!-- Left Side Image -->
+    <div class="left_contact">
+      <img src="img/prof.jpg" alt="Agent Image">
+    </div>
+    
+    <!-- Right Side Content -->
+    <div class="right_box">
+      <h1 class="heading1">Contact with Our Certified Agents</h1>
+      <p class="para">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur sit fugit laudantium quia,
+        non doloremque aspernatur consectetur unde ut nostrum.
+      </p>
+      <button class="btn">Call Now</button>
+      <button class="btn btn2">Get Appointment</button>
+    </div>
+
+  </div>
+</section> 
+
+
+
+<!-- ✅ Agents Section -->
+<section class="sec" id="contact">
+  <div class="head">
+    <h1 class="heading1">Property Agents</h1>
+    <p class="para">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae vero culpa iste ullam omnis id eum error, totam, facilis doloremque.
+    </p>
+  </div>
+
+  <!-- All 6 team cards inside a single .boxes container -->
+  <div class="boxes list_boxes">
+
+    <!-- Agent -->
+    <div class="box_2">
+      <img src="img/agent.jpg" alt="Agent Dennis">
+      <div class="icons">
+        <i class="ri-facebook-fill"></i>
+        <i class="ri-twitter-fill"></i>
+        <i class="ri-instagram-fill"></i>
+      </div>
+      <div class="text">
+        <h1>Dennis</h1>
+        <h4>Senior Agent</h4>
+      </div>
+    </div>
+
+    <!-- Designer -->
+    <div class="box_2">
+      <img src="img/agent.jpg" alt="Designer">
+      <div class="icons">
+        <i class="ri-facebook-fill"></i>
+        <i class="ri-twitter-fill"></i>
+        <i class="ri-instagram-fill"></i>
+      </div>
+      <div class="text">
+        <h1>Aria Johnson</h1>
+        <h4>Lead Designer</h4>
+      </div>
+    </div>
+
+    <!-- Artist -->
+    <div class="box_2">
+      <img src="img/agent.jpg" alt="Artist">
+      <div class="icons">
+        <i class="ri-facebook-fill"></i>
+        <i class="ri-twitter-fill"></i>
+        <i class="ri-instagram-fill"></i>
+      </div>
+      <div class="text">
+        <h1>Liam Davis</h1>
+        <h4>Visual Artist</h4>
+      </div>
+    </div>
+
+    <!-- Photographer -->
+    <div class="box_2">
+      <img src="img/agent.jpg" alt="Photographer">
+      <div class="icons">
+        <i class="ri-facebook-fill"></i>
+        <i class="ri-twitter-fill"></i>
+        <i class="ri-instagram-fill"></i>
+      </div>
+      <div class="text">
+        <h1>Emily Clarke</h1>
+        <h4>Real Estate Photographer</h4>
+      </div>
+    </div>
+
+    <!-- Developer -->
+    <div class="box_2">
+      <img src="img/agent.jpg" alt="Developer">
+      <div class="icons">
+        <i class="ri-facebook-fill"></i>
+        <i class="ri-twitter-fill"></i>
+        <i class="ri-instagram-fill"></i>
+      </div>
+      <div class="text">
+        <h1>Jason Lee</h1>
+        <h4>Web Developer</h4>
+      </div>
+    </div>
+
+    <!-- Marketer -->
+    <div class="box_2">
+      <img src="img/agent.jpg" alt="Marketer">
+      <div class="icons">
+        <i class="ri-facebook-fill"></i>
+        <i class="ri-twitter-fill"></i>
+        <i class="ri-instagram-fill"></i>
+      </div>
+      <div class="text">
+        <h1>Sophia White</h1>
+        <h4>Digital Marketer</h4>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Footer Section -->
+
+<footer>
+  <div class="footer">
+    <div class="footer_col">
+      <h4>Support</h4>
+      <ul class="footer_links">
+        <li><a href="#">Account</a></li>
+        <li><a href="#">Support Center</a></li>
+        <li><a href="#">Feedback</a></li>
+        <li><a href="#">Accessibility</a></li>
+      </ul>
+    </div>
+
+    <div class="footer_col">
+      <h4>About</h4>
+      <ul class="footer_links">
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Menu</a></li>
+      </ul>
+    </div>
+
+    <div class="footer_col">
+      <h4>Contact Us</h4>
+      <ul class="footer_links">
+        <li><a href="#"><i class="ri-mail-fill"></i> Anna@gmail.com</a></li>
+        <li><a href="#"><i class="ri-map-pin-line"></i> ABC Road, Kolar</a></li>
+        <li><a href="#"><i class="ri-phone-line"></i> +98765432</a></li>
+      </ul>
+    </div>
+
+    <div class="footer_col">
+      <h4>Company</h4>
+      <ul class="footer_links">
+        <li><a href="#">ANNA</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
+    </div>
+     </div>
+
+    <!-- Footer Bar -->
+<div class="footer_bar">
+  <div class="footer_left">
+    <h4>Homy</h4>
+  </div>
+  <div class="footer_center">
+    <p>&copy; 2025 KARTHIK. All rights reserved.</p>
+  </div>
+  <div class="footer_right">
+  <ul class="footer_socials">
+    <li><a href="#"><i class="ri-facebook-fill"></i></a></li>
+    <li><a href="#"><i class="ri-twitter-x-line"></i></a></li>
+    <li><a href="#"><i class="ri-instagram-line"></i></a></li>
+    <li><a href="#"><i class="ri-linkedin-box-fill"></i></a></li>
+  </ul>
+</div>
+
+</div>
+
+
+
+
+</footer>
+
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
+
+   <script src="index.js"></script>
+</body>
+</html>
